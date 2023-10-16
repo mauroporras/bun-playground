@@ -1,1 +1,5 @@
-console.log("Hello via Bun!");
+const add = (n1: number, n2: number) => n1 + n2;
+
+const multiply = (n1: number, n2: number) => n1 * n2;
+
+export { add, multiply };
