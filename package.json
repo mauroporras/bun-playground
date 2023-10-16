@@ -1,0 +1,10 @@
+{
+  "name": "bun-playground",
+  "author": "Mauro Pineda <https://github.com/mauroporras>",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
