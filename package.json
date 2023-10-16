@@ -1,10 +1,12 @@
 {
-  "name": "bun-playground",
-  "author": "Mauro Pineda <https://github.com/mauroporras>",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest",
-    "typescript": "^5.0.0"
-  }
+    "name": "bun-playground",
+    "author": "Mauro Pineda <https://github.com/mauroporras>",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "bun-types": "latest",
+        "prettier": "^3.0.3",
+        "prettier-plugin-organize-imports": "^3.2.3",
+        "typescript": "^5.0.0"
+    }
 }

@@ -1,0 +1,11 @@
+session_name: Bun Playground
+suppress_history: false
+windows:
+    - panes:
+          - bun run --watch index.ts
+    - panes:
+          - ${EDITOR} -S
+    - panes:
+          - shell_command:
+                - git fetch
+                - git status
