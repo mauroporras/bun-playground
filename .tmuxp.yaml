@@ -1,11 +1,15 @@
 session_name: Bun Playground
 suppress_history: false
 windows:
-    - panes:
-          - bun run dev
-    - panes:
-          - ${EDITOR} -S
-    - panes:
+    - window_name: Git
+      panes:
           - shell_command:
                 - git fetch
-                - git status
+                - lazygit
+
+    - window_name: Main
+      layout: even-horizontal
+      panes:
+          - shell_command: ${EDITOR} -S
+            focus: true
+          - bun run dev
