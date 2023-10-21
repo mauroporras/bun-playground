@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { add, multiply } from "./index";
+import { add, multiply } from "./helpers";
 
 describe("Some arithmetic operations", () => {
     test("Addition", () => {

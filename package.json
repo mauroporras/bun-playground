@@ -1,7 +1,7 @@
 {
     "name": "bun-playground",
     "author": "Mauro Pineda <https://github.com/mauroporras>",
-    "module": "index.ts",
+    "module": "src/index.ts",
     "type": "module",
     "devDependencies": {
         "bun-types": "latest",
@@ -10,9 +10,9 @@
         "typescript": "^5.0.0"
     },
     "scripts": {
-        "dev": "bun run --watch index.ts",
-        "inspect": "bun --inspect index.ts",
-        "inspect:break": "bun --inspect-brk index.ts",
-        "inspect:wait": "bun --inspect-wait index.ts"
+        "dev": "bun run --watch src/index.ts",
+        "inspect": "bun --inspect src/index.ts",
+        "inspect:break": "bun --inspect-brk src/index.ts",
+        "inspect:wait": "bun --inspect-wait src/index.ts"
     }
 }
