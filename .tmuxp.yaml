@@ -2,7 +2,7 @@ session_name: Bun Playground
 suppress_history: false
 windows:
     - panes:
-          - bun run --watch index.ts
+          - bun run dev
     - panes:
           - ${EDITOR} -S
     - panes:
