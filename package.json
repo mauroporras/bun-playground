@@ -10,6 +10,9 @@
         "typescript": "^5.0.0"
     },
     "scripts": {
-        "dev": "bun run --watch index.ts"
+        "dev": "bun run --watch index.ts",
+        "inspect": "bun --inspect index.ts",
+        "inspect:break": "bun --inspect-brk index.ts",
+        "inspect:wait": "bun --inspect-wait index.ts"
     }
 }
