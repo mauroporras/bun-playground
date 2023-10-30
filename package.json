@@ -13,6 +13,7 @@
         "dev": "bun run --watch src/index.ts",
         "inspect": "bun --inspect src/index.ts",
         "inspect:break": "bun --inspect-brk src/index.ts",
-        "inspect:wait": "bun --inspect-wait src/index.ts"
+        "inspect:wait": "bun --inspect-wait src/index.ts",
+        "test:one": "bun test helpers.test.ts --watch"
     }
 }

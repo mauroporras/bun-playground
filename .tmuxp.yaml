@@ -12,4 +12,4 @@ windows:
       panes:
           - shell_command: ${EDITOR} -S
             focus: true
-          - bun run dev
+          - bun run test:one
