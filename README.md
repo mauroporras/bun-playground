@@ -3,19 +3,15 @@
 ## Getting Started
 
 ```bash
-bun create mauroporras/bun-playground
+bun create mauroporras/bun-playground [some-name]
 ```
 
 ## Running
 
-```bash
-bun run --watch index.ts
-```
-
-## Testing
+To run and watch the [src/index.ts](src/index.ts) file:
 
 ```bash
-bun test --watch
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.0.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Remember to look for more useful scripts inside the [package.json](package.json) file.
